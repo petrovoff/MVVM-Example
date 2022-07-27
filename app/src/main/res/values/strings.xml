@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">Example</string>
+    <string name="label_password">Password</string>
+    <string name="label_email">Email</string>
+    <string name="label_confirm_password">Confirm password</string>
+    <string name="label_register">Register</string>
+    <string name="label_sign_in">Sign in</string>
+    <string name="title_registration">REGISTRATION</string>
+    <string name="message_enter_email">Morate uneti email</string>
+    <string name="message_enter_format_email">Nije odgovarajuci format mejla</string>
+    <string name="message_enter_password">Morate uneti password</string>
+    <string name="message_weak_password">Slaba lozinka</string>
+    <string name="message_confirm_password">Morate potvrditi lozinku</string>
+    <string name="message_password_confirm_password">Lozinka i potvrdjena lozinka moraju biti iste</string>
+    <string name="label_accept">I accept</string>
+    <string name="label_terms_of_user">terms of use</string>
+    <string name="label_login">Login</string>
+    <string name="label_sign_up">Sign up</string>
+    <string name="title_privacy_policy">Privacy policy</string>
+    <string name="message_privacy_policy">Morate prihvatiti uslove koriscenja</string>
 </resources>

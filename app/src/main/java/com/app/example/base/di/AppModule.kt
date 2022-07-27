@@ -1,5 +1,8 @@
 package com.app.example.base.di
 
+import android.app.Application
+import android.content.Context
+import android.content.SharedPreferences
 import com.app.example.base.Api
 
 import dagger.Module
@@ -27,4 +30,9 @@ object AppModule {
     fun provideApi(retrofit: Retrofit): Api =
         retrofit.create(Api::class.java)
 
+    @Provides
+    @Singleton
+    fun provideSharedPreferences(application: Application): SharedPreferences {
+        return application.getSharedPreferences("MAIN_SHARED_PREFERENCES", Context.MODE_PRIVATE)
+    }
 }
